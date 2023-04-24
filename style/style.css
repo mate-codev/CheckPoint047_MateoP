@@ -95,7 +95,7 @@ form {
 	padding: 1rem;
 	background-color: bisque;
 }
-legend {
+.legend {
 	text-align: center;
 	font-size: 1.4rem;
 	font-weight: bold;
