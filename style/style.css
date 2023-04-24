@@ -9,10 +9,10 @@ body {
 
 header {
 	width: 100%;
-	background-color: bisque;
+	background-color: white;
 	display: flex;
 	height: 7vh;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: row-reverse;
 	align-items: center;
 }
@@ -28,8 +28,7 @@ header {
 	border-radius: 2rem;
 }
 .nav-h1 {
-	text-align: center;
-	width: 100%;
+	width: 25%;
 }
 .main {
 	width: 100%;
@@ -175,7 +174,7 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 426px) {
 	header {
-		height: 15rem;
+		height: 17rem;
 		flex-direction: column-reverse;
 	}
 	.nav-a {
@@ -211,9 +210,16 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	header {
 		flex-direction: column-reverse;
-		height: 15rem;
+		height: 11rem;
+	}
+	.nav-h1 {
+		text-align: center;
+	}
+	.nav-a {
+		justify-content: center;
 	}
 	.nav-1 a {
+		height: 2rem;
 		display: flex;
 		flex-direction: column;
 	}
